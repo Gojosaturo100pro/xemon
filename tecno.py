@@ -66,7 +66,7 @@ else:  # inserted
     date = f'{G}' + str(sex1) + f'{W}-{G}' + str(sex2)
 
     def ___swag___():
-        return random.choice(*('SM-T835', 'SM-S901U', 'SM-S134DL', SM-J250F, 'SM-A217F', 'SM-A326B', 'SM-A125F', 'SM-A720F', 'SM-A326U', 'SM-G532M', 'SM-J410G', 'SM-A205GN', 'SM-A505GN', 'SM-G930F', 'SM-J210F', 'SM-N9005', 'CPH2083', 'CPH2235', 'CPH2499', 'CPH2185', 'CPH2499', 'SM-A205GN', 'SM-A505GN', 'SM-G930F', 'SM-J210F', 'SM-N9005', 'CPH2083', 'CPH2235', 'CPH2499', 'CPH2185', 'CPH2065', 'CPH2499', 'CPH2185', 'CPH2065', 'CPH2499', 'CPH2185', 'CPH2185', 'CPH2185', 'CPH2185', 'CPH2185', 'CPH2499', 'SM-A205GN', 'SM-A505GN', 'SM-G930F', 'SM-J210F', 'SM-N9005', 'CPH2083', 'CPH2235', 'CPH2499', 'CPH2185', 'CPH2185', '
+       #return random.choice(*('SM-T835', 'SM-S901U', 'SM-S134DL', SM-J250F, 'SM-A217F', 'SM-A326B', 'SM-A125F', 'SM-A720F', 'SM-A326U', 'SM-G532M', 'SM-J410G', 'SM-A205GN', 'SM-A505GN', 'SM-G930F', 'SM-J210F', 'SM-N9005', 'CPH2083', 'CPH2235', 'CPH2499', 'CPH2185', 'CPH2499', 'SM-A205GN', 'SM-A505GN', 'SM-G930F', 'SM-J210F', 'SM-N9005', 'CPH2083', 'CPH2235', 'CPH2499', 'CPH2185', 'CPH2065', 'CPH2499', 'CPH2185', 'CPH2065', 'CPH2499', 'CPH2185', 'CPH2185', 'CPH2185', 'CPH2185', 'CPH2185', 'CPH2499', 'SM-A205GN', 'SM-A505GN', 'SM-G930F', 'SM-J210F', 'SM-N9005', 'CPH2083', 'CPH2235', 'CPH2499', 'CPH2185', 'CPH2185', '
         fban = random.choice(['FB4A'])
         facebook_version = f'{random.randint(100, 450)}.{random.randint(0, 0)}.{random.randint(0, 0)}.{random.randint(1, 40)}.{random.randint(10, 150)}'
         fb_ver_code = str(random.randint(10000000, 66666666))
